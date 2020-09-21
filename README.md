@@ -10,4 +10,4 @@ This repo contains the `package.json` overrides used for npm registry packages a
 2. There should be a link to a PR that was made to the original package repo with the change.
 3. The primary repo PR must be stalled with no repsonsive discussion or activity.
 
-If there are consensus issues on the primary PR, feel free to post an issue here to discuss further. The override is only the last resort for packages that are either not maintained, or where maintainers are unresponsive or actively refusing to merge the feature.
+If there are consensus issues on the primary PR, feel free to post an issue here to seek assistance resolving any conflicts. The override is only the last resort for packages that are either not maintained, or where maintainers are unresponsive or actively refusing to merge the feature.
