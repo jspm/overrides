@@ -1,4 +1,4 @@
-# jspm Overrides
+# jspm overrides
 
 This repo contains the `package.json` overrides used for npm registry packages as processed by `jspm.dev`, `jspm.io` as well as in local package management.
 
