@@ -1,20 +1,2 @@
 {
-  "tslib": {
-    "1": {
-      "exports": {
-        ".": {
-          "import": "./tslib.es6.js",
-          "default": "./tslib.js"
-        }
-      }
-    },
-    "2": {
-      "exports": {
-        ".": {
-          "import": "./tslib.es6.js",
-          "default": "./tslib.js"
-        }
-      }
-    }
-  }
 }
