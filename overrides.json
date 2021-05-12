@@ -8,7 +8,6 @@
           "import": "./esm/index.js"
         },
         "./index": null,
-        "./esm/*": null,
         "./*": {
           "require": "./*.js",
           "import": "./esm/*.js"
