@@ -26,6 +26,7 @@
           "import": "./esm/index.js"
         },
         "./index": null,
+        "./internal/*": null,
         "./*": {
           "require": "./*/index.js",
           "import": "./esm/*/index.js"
