@@ -1,2 +1,20 @@
 {
+  "@material-ui/icons": {
+    "4": {
+      "exports": {
+        ".": "./index.js",
+        "./index.js": {
+          "require": "./index.js",
+          "import": "./esm/index.js"
+        },
+        "./index": null,
+        "./esm/*": null,
+        "./*": {
+          "require": "./*.js",
+          "import": "./esm/*.js"
+        },
+        "./esm/*": "./esm/*.js"
+      }
+    }
+  }
 }
