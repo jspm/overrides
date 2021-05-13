@@ -6,6 +6,7 @@
           "require": "./index.js",
           "import": "./esm/index.js"
         },
+        "./index.js": "./index.js",
         "./index": null,
         "./*": {
           "require": "./*.js",
@@ -22,10 +23,7 @@
           "require": "./index.js",
           "import": "./esm/index.js"
         },
-        "./index.js": {
-          "require": "./index.js",
-          "import": "./esm/index.js"
-        },
+        "./index.js": "./index.js",
         "./index": null,
         "./internal/*": null,
         "./*": {
@@ -44,10 +42,7 @@
           "require": "./index.js",
           "import": "./esm/index.js"
         },
-        "./index.js": {
-          "require": "./index.js",
-          "import": "./esm/index.js"
-        },
+        "./index.js": "./index.js",
         "./index": null,
         "./internal/*": null,
         "./*": {
@@ -66,10 +61,7 @@
           "require": "./index.js",
           "import": "./esm/index.js"
         },
-        "./index.js": {
-          "require": "./index.js",
-          "import": "./esm/index.js"
-        },
+        "./index.js": "./index.js",
         "./index": null,
         "./internal/*": null,
         "./*": {
@@ -88,6 +80,7 @@
           "require": "./index.js",
           "import": "./esm/index.js"
         },
+        "./index.js": "./index.js",
         "./index": null,
         "./*": {
           "require": "./*.js",
@@ -105,6 +98,7 @@
           "require": "./index.js",
           "import": "./esm/index.js"
         },
+        "./index.js": "./index.js",
         "./index": null,
         "./*": {
           "require": "./*.js",
