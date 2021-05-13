@@ -3,14 +3,16 @@
     "4": {
       "exports": {
         ".": {
-          "require": "./index.js",
-          "import": "./esm/index.js"
+          "module": "./esm/index.js",
+          "import": "./esm/index.js",
+          "require": "./index.js"
         },
         "./index.js": "./index.js",
         "./index": null,
         "./*": {
-          "require": "./*.js",
-          "import": "./esm/*.js"
+          "module": "./esm/*.js",
+          "import": "./esm/*.js",
+          "require": "./*.js"
         },
         "./esm/*": "./esm/*.js"
       }
@@ -20,15 +22,17 @@
     "4": {
       "exports": {
         ".": {
-          "require": "./index.js",
-          "import": "./esm/index.js"
+          "module": "./esm/index.js",
+          "import": "./esm/index.js",
+          "require": "./index.js"
         },
         "./index.js": "./index.js",
         "./index": null,
         "./internal/*": null,
         "./*": {
-          "require": "./*/index.js",
-          "import": "./esm/*/index.js"
+          "module": "./esm/*/index.js",
+          "import": "./esm/*/index.js",
+          "require": "./*/index.js"
         },
         "./esm/*": "./esm/*/index.js",
         "./es/*": "./es/*/index.js"
@@ -39,15 +43,17 @@
     "4": {
       "exports": {
         ".": {
-          "require": "./index.js",
-          "import": "./esm/index.js"
+          "module": "./esm/index.js",
+          "import": "./esm/index.js",
+          "require": "./index.js"
         },
         "./index.js": "./index.js",
         "./index": null,
         "./internal/*": null,
         "./*": {
-          "require": "./*/index.js",
-          "import": "./esm/*/index.js"
+          "module": "./esm/*/index.js",
+          "import": "./esm/*/index.js",
+          "require": "./*/index.js"
         },
         "./esm/*": "./esm/*/index.js",
         "./es/*": "./es/*/index.js"
@@ -58,15 +64,17 @@
     "4": {
       "exports": {
         ".": {
-          "require": "./index.js",
-          "import": "./esm/index.js"
+          "module": "./esm/index.js",
+          "import": "./esm/index.js",
+          "require": "./index.js"
         },
         "./index.js": "./index.js",
         "./index": null,
         "./internal/*": null,
         "./*": {
-          "require": "./*/index.js",
-          "import": "./esm/*/index.js"
+          "module": "./esm/*/index.js",
+          "import": "./esm/*/index.js",
+          "require": "./*/index.js"
         },
         "./esm/*": "./esm/*/index.js",
         "./es/*": "./es/*/index.js"
@@ -77,14 +85,16 @@
     "4": {
       "exports": {
         ".": {
-          "require": "./index.js",
-          "import": "./esm/index.js"
+          "module": "./esm/index.js",
+          "import": "./esm/index.js",
+          "require": "./index.js"
         },
         "./index.js": "./index.js",
         "./index": null,
         "./*": {
-          "require": "./*.js",
-          "import": "./esm/*.js"
+          "module": "./esm/*.js",
+          "import": "./esm/*.js",
+          "require": "./*.js"
         },
         "./esm/*": "./esm/*.js",
         "./es/*": "./es/*.js"
@@ -95,14 +105,16 @@
     "4": {
       "exports": {
         ".": {
-          "require": "./index.js",
-          "import": "./esm/index.js"
+          "module": "./esm/index.js",
+          "import": "./esm/index.js",
+          "require": "./index.js"
         },
         "./index.js": "./index.js",
         "./index": null,
         "./*": {
-          "require": "./*.js",
-          "import": "./esm/*.js"
+          "module": "./esm/*.js",
+          "import": "./esm/*.js",
+          "require": "./*.js"
         },
         "./esm/*": "./esm/*.js",
         "./es/*": "./es/*.js"
