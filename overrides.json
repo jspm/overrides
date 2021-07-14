@@ -36,7 +36,7 @@
         },
         "./esm/*": "./esm/*/index.js",
         "./es/*": "./es/*/index.js",
-        "./core/styles/*": {
+        "./styles/*": {
           "module": "./esm/styles/*.js",
           "import": "./esm/styles/*.js",
           "require": "./styles/*.js"
