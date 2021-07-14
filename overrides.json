@@ -35,7 +35,12 @@
           "require": "./*/index.js"
         },
         "./esm/*": "./esm/*/index.js",
-        "./es/*": "./es/*/index.js"
+        "./es/*": "./es/*/index.js",
+        "./core/styles/*": {
+          "module": "./esm/styles/*.js",
+          "import": "./esm/styles/*.js",
+          "require": "./styles/*.js"
+        }
       }
     }
   },
