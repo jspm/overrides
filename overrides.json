@@ -125,5 +125,14 @@
         "./es/*": "./es/*.js"
       }
     }
+  },
+  "isobject": {
+    "4.0.0": {
+      "exports": {
+        ".": "./index.cjs.js",
+        "./index": "./index.js",
+        "./index.cjs.js": "./index.cjs.js"
+      }
+    }
   }
 }
