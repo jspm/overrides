@@ -625,5 +625,21 @@
         "./dist/commonjs/addons/Confirm": "./dist/commonjs/addons/Confirm/index.js"
       }
     }
+  },
+  "tippy.js": {
+    "6": {
+      "exports": {
+        ".": {
+          "module": "./dist/tippy.esm.js",
+          "default": "./dist/tippy.cjs.js"
+        },
+        "./headless": {
+          "module": "./headless/dist/tippy-headless.esm.js",
+          "default": "./headless/dist/tippy-headless.cjs.js"
+        },
+        "./headless/dist/tippy-headless.cjs.js": "./headless/dist/tippy-headless.cjs.js",
+        "./headless/dist/tippy-headless.esm.js": "./headless/dist/tippy-headless.esm.js"
+      }
+    }
   }
 }
