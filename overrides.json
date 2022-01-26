@@ -135,6 +135,34 @@
       }
     }
   },
+  "react-focus-lock": {
+    "2.5.2": {
+      "exports": {
+        ".": {
+          "development": "./dist/cjs/dev.index.js",
+          "default": "./dist/cjs/index.js"
+        },
+        "./dist/cjs": {
+          "development": "./dist/cjs/dev.index.js",
+          "default": "./dist/cjs/index.js"
+        },
+        "./sidecar": {
+          "development": "./dist/cjs/dev.sidecar.js",
+          "default": "./dist/cjs/sidecar.js"
+        },
+        "./UI": {
+          "development": "./dist/cjs/dev.UI.js",
+          "default": "./dist/cjs/UI.js"
+        },
+        "./dist/cjs/index.js!cjs": "./dist/cjs/index.js",
+        "./dist/cjs/dev.index.js!cjs": "./dist/cjs/dev.index.js",
+        "./dist/cjs/sidecar.js!cjs": "./dist/cjs/sidecar.js",
+        "./dist/cjs/dev.sidecar.js!cjs": "./dist/cjs/dev.sidecar.js",
+        "./dist/cjs/UI.js!cjs": "./dist/cjs/UI.js",
+        "./dist/cjs/dev.UI.js!cjs": "./dist/cjs/dev.UI.js"
+      }
+    }
+  },
   "semantic-ui-react": {
     "2": {
       "exports": {
