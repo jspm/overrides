@@ -1,4 +1,9 @@
 {
+  "@ethersproject/keccak256": {
+    "5": {
+      "exports": "./lib/index.js"
+    }
+  },
   "@material-ui/icons": {
     "4": {
       "exports": {
