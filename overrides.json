@@ -168,6 +168,18 @@
       }
     }
   },
+  "react-reconciler": {
+    "^0.26.1": {
+      "exports": {
+        ".": "./index.js",
+        "./index": "./index.js",
+        "./constants": "./constants.js",
+        "./reflection": "./reflection.js",
+        "./package.json": "./package.json",
+        "./*": "./*"
+      }
+    }
+  },
   "semantic-ui-react": {
     "2": {
       "exports": {
