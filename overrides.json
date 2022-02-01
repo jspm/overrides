@@ -659,6 +659,13 @@
       }
     }
   },
+  "prop-types": {
+    "15.8.0": {
+      "cjsNamedExports": {
+        "index.js": ["array", "bigint", "bool", "func", "number", "object", "string", "symbol", "any", "arrayOf", "element", "elementType", "instanceOf", "node", "objectOf", "oneOf", "oneOfType", "shape", "exact"]
+      }
+    }
+  },
   "tippy.js": {
     "6": {
       "exports": {
