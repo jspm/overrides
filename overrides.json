@@ -1,4 +1,11 @@
 {
+  "@arcgis/core": {
+    "4": {
+      "exports": {
+        "./layers/*": "./layers/*.js"
+      }
+    }
+  },
   "@ethersproject/keccak256": {
     "5": {
       "exports": "./lib/index.js"
