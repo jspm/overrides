@@ -610,6 +610,11 @@
       }
     }
   },
+  "events": {
+    "3": {
+      "cjsNamedExports": ["once", "EventEmitter"]
+    }
+  },
   "isobject": {
     "4.0.0": {
       "exports": {
