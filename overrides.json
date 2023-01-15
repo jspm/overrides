@@ -612,7 +612,9 @@
   },
   "events": {
     "3": {
-      "cjsNamedExports": ["once", "EventEmitter"]
+      "cjsNamedExports": {
+        "events.js": ["once", "EventEmitter"]
+      }
     }
   },
   "isobject": {
