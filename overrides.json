@@ -478,6 +478,14 @@
       }
     }
   },
+  "@clerk/clerk-js": {
+    "4": {
+      "exports": {
+        "browser": "./dist/clerk.browser.js",
+        "default": "./dist/clerk.js"
+      }
+    }
+  },
   "@ethersproject/keccak256": {
     "5": {
       "exports": "./lib/index.js"
