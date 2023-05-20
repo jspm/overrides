@@ -1239,5 +1239,23 @@
         "./dist/mini.umd.js": "./dist/mini.umd.js"
       }
     }
+  },
+  "@vue/reactivity": {
+    "3": {
+      "exports": {
+        ".": {
+          "module": "./dist/reactivity.esm-browser.js"
+        }
+      }
+    }
+  },
+  "@vue/shared": {
+    "3": {
+      "exports": {
+        ".": {
+          "module": "./dist/shared.esm-browser.js"
+        }
+      }
+    }
   }
 }
