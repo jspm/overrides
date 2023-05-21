@@ -1250,10 +1250,7 @@
   },
   "@vue/shared": {
     "3": {
-      "exports": {
-        "module": "./dist/shared.esm-browser.js",
-        "default": "./index.js"
-      }
+      "exports": "./index.js",
     }
   }
 }
