@@ -1243,18 +1243,16 @@
   "@vue/reactivity": {
     "3": {
       "exports": {
-        ".": {
-          "module": "./dist/reactivity.esm-browser.js"
-        }
+        "module": "./dist/reactivity.esm-browser.js",
+        "default": "./index.js"
       }
     }
   },
   "@vue/shared": {
     "3": {
       "exports": {
-        ".": {
-          "module": "./dist/shared.esm-browser.js"
-        }
+        "module": "./dist/shared.esm-browser.js",
+        "default": "./index.js"
       }
     }
   }
