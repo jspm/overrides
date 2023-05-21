@@ -1252,5 +1252,11 @@
     "3": {
       "exports": "./index.js",
     }
+  },
+  "@vue/runtime-dom": {
+    "3": {
+      "module": "./dist/runtime-dom.esm-browser.js",
+      "default": "./index.js"
+    }
   }
 }
