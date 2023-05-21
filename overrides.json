@@ -1250,7 +1250,7 @@
   },
   "@vue/shared": {
     "3": {
-      "exports": "./index.js",
+      "exports": "./index.js"
     }
   },
   "@vue/runtime-dom": {
