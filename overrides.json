@@ -2,8 +2,68 @@
   "react": {
     "16.8.0": {
       "cjsNamedExports": {
-        "cjs/react.development.js": ["isValidElement"],
-        "cjs/react.production.min.js": ["isValidElement"]
+        "cjs/react.development.js": [
+          "isValidElement",
+          "createFactory",
+          "cloneElement",
+          "createElement",
+          "version",
+          "unstable_ConcurrentMode",
+          "unstable_Profiler",
+          "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+          "Suspense",
+          "StrictMode",
+          "Fragment",
+          "useState",
+          "useRef",
+          "useReducer",
+          "useMemo",
+          "useLayoutEffect",
+          "useDebugValue",
+          "useImperativeHandle",
+          "useEffect",
+          "useContext",
+          "useCallback",
+          "memo",
+          "lazy",
+          "forwardRef",
+          "createContext",
+          "PureComponent",
+          "Component",
+          "createRef",
+          "Children"
+        ],
+        "cjs/react.production.min.js": [
+          "isValidElement",
+          "createFactory",
+          "cloneElement",
+          "createElement",
+          "version",
+          "unstable_ConcurrentMode",
+          "unstable_Profiler",
+          "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+          "Suspense",
+          "StrictMode",
+          "Fragment",
+          "useState",
+          "useRef",
+          "useReducer",
+          "useMemo",
+          "useLayoutEffect",
+          "useDebugValue",
+          "useImperativeHandle",
+          "useEffect",
+          "useContext",
+          "useCallback",
+          "memo",
+          "lazy",
+          "forwardRef",
+          "createContext",
+          "PureComponent",
+          "Component",
+          "createRef",
+          "Children"
+        ]
       }
     }
   },
@@ -621,10 +681,7 @@
   "events": {
     "3": {
       "cjsNamedExports": {
-        "events.js": [
-          "once",
-          "EventEmitter"
-        ]
+        "events.js": ["once", "EventEmitter"]
       }
     }
   },
