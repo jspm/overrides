@@ -1,4 +1,12 @@
 {
+  "react": {
+    "16.8.0": {
+      "cjsNamedExports": {
+        "cjs/react.development.js": ["isValidElement"],
+        "cjs/react.production.js": ["isValidElement"]
+      }
+    }
+  },
   "@arcgis/core": {
     "4": {
       "exports": {
