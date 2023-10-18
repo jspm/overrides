@@ -1323,5 +1323,11 @@
       "module": "./dist/runtime-dom.esm-browser.js",
       "default": "./index.js"
     }
+  },
+  "vue": {
+    "3": {
+        "module": "./dist/vue.esm-browser.js",
+        "default": "./index.js"
+    }
   }
 }
