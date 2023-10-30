@@ -1320,8 +1320,66 @@
   },
   "@vue/runtime-dom": {
     "3": {
-      "module": "./dist/runtime-dom.esm-browser.js",
-      "default": "./index.js"
+      "exports": {
+        "module": "./dist/runtime-dom.esm-browser.js",
+        "default": "./index.js"
+      }
+    }
+  },
+  "vue": {
+    "3": {
+      "exports": {
+        ".": {
+          "import": {
+            "types": "./dist/vue.d.mts",
+            "node": "./index.mjs",
+            "browser": "./dist/vue.esm-browser.js",
+            "default": "./dist/vue.runtime.esm-bundler.js"
+          },
+          "require": {
+            "types": "./dist/vue.d.ts",
+            "default": "./index.js"
+          }
+        },
+        "./server-renderer": {
+          "import": {
+            "types": "./server-renderer/index.d.mts",
+            "default": "./server-renderer/index.mjs"
+          },
+          "require": {
+            "types": "./server-renderer/index.d.ts",
+            "default": "./server-renderer/index.js"
+          }
+        },
+        "./compiler-sfc": {
+          "import": {
+            "types": "./compiler-sfc/index.d.mts",
+            "browser": "./compiler-sfc/index.browser.mjs",
+            "default": "./compiler-sfc/index.mjs"
+          },
+          "require": {
+            "types": "./compiler-sfc/index.d.ts",
+            "browser": "./compiler-sfc/index.browser.js",
+            "default": "./compiler-sfc/index.js"
+          }
+        },
+        "./jsx-runtime": {
+          "types": "./jsx-runtime/index.d.ts",
+          "import": "./jsx-runtime/index.mjs",
+          "require": "./jsx-runtime/index.js"
+        },
+        "./jsx-dev-runtime": {
+          "types": "./jsx-runtime/index.d.ts",
+          "import": "./jsx-runtime/index.mjs",
+          "require": "./jsx-runtime/index.js"
+        },
+        "./jsx": "./jsx.d.ts",
+        "./dist/*": "./dist/*",
+        "./package.json": "./package.json",
+        "./macros": "./macros.d.ts",
+        "./macros-global": "./macros-global.d.ts",
+        "./ref-macros": "./ref-macros.d.ts"
+      }
     }
   }
 }
