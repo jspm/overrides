@@ -635,7 +635,7 @@
         },
         "./esm/*": "./esm/*/index.js",
         "./es/*": "./es/*/index.js"
-      }f
+      }
     }
   },
   "@material-ui/system": {
