@@ -635,7 +635,7 @@
         },
         "./esm/*": "./esm/*/index.js",
         "./es/*": "./es/*/index.js"
-      }
+      }f
     }
   },
   "@material-ui/system": {
@@ -655,6 +655,23 @@
         },
         "./esm/*": "./esm/*.js",
         "./es/*": "./es/*.js"
+      }
+    },
+    "5": {
+      "exports": {
+        ".": {
+          "module": "./esm/index.js",
+          "import": "./esm/index.js",
+          "require": "./index.js"
+        },
+        "./index.js": "./index.js",
+        "./index": null,
+        "./*": {
+          "module": "./esm/*.js",
+          "import": "./esm/*.js",
+          "require": "./*.js"
+        },
+        "./esm/*": "./esm/*.js"
       }
     }
   },
