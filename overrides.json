@@ -656,23 +656,6 @@
         "./esm/*": "./esm/*.js",
         "./es/*": "./es/*.js"
       }
-    },
-    "5": {
-      "exports": {
-        ".": {
-          "module": "./esm/index.js",
-          "import": "./esm/index.js",
-          "require": "./index.js"
-        },
-        "./index.js": "./index.js",
-        "./index": null,
-        "./*": {
-          "module": "./esm/*.js",
-          "import": "./esm/*.js",
-          "require": "./*.js"
-        },
-        "./esm/*": "./esm/*.js"
-      }
     }
   },
   "@material-ui/utils": {
@@ -692,6 +675,25 @@
         },
         "./esm/*": "./esm/*.js",
         "./es/*": "./es/*.js"
+      }
+    }
+  },
+  "@mui/system": {
+    "5": {
+      "exports": {
+        ".": {
+          "module": "./esm/index.js",
+          "import": "./esm/index.js",
+          "require": "./index.js"
+        },
+        "./index.js": "./index.js",
+        "./index": null,
+        "./*": {
+          "module": "./esm/*.js",
+          "import": "./esm/*.js",
+          "require": "./*.js"
+        },
+        "./esm/*": "./esm/*.js"
       }
     }
   },
