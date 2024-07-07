@@ -1,72 +1,4 @@
 {
-  "react": {
-    "16.8.0": {
-      "cjsNamedExports": {
-        "cjs/react.development.js": [
-          "isValidElement",
-          "createFactory",
-          "cloneElement",
-          "createElement",
-          "version",
-          "unstable_ConcurrentMode",
-          "unstable_Profiler",
-          "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
-          "Suspense",
-          "StrictMode",
-          "Fragment",
-          "useState",
-          "useRef",
-          "useReducer",
-          "useMemo",
-          "useLayoutEffect",
-          "useDebugValue",
-          "useImperativeHandle",
-          "useEffect",
-          "useContext",
-          "useCallback",
-          "memo",
-          "lazy",
-          "forwardRef",
-          "createContext",
-          "PureComponent",
-          "Component",
-          "createRef",
-          "Children"
-        ],
-        "cjs/react.production.min.js": [
-          "isValidElement",
-          "createFactory",
-          "cloneElement",
-          "createElement",
-          "version",
-          "unstable_ConcurrentMode",
-          "unstable_Profiler",
-          "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
-          "Suspense",
-          "StrictMode",
-          "Fragment",
-          "useState",
-          "useRef",
-          "useReducer",
-          "useMemo",
-          "useLayoutEffect",
-          "useDebugValue",
-          "useImperativeHandle",
-          "useEffect",
-          "useContext",
-          "useCallback",
-          "memo",
-          "lazy",
-          "forwardRef",
-          "createContext",
-          "PureComponent",
-          "Component",
-          "createRef",
-          "Children"
-        ]
-      }
-    }
-  },
   "@arcgis/core": {
     "4": {
       "exports": {
@@ -551,25 +483,6 @@
       "exports": "./lib/index.js"
     }
   },
-  "@material-ui/icons": {
-    "4": {
-      "exports": {
-        ".": {
-          "module": "./esm/index.js",
-          "import": "./esm/index.js",
-          "require": "./index.js"
-        },
-        "./index.js": "./index.js",
-        "./index": null,
-        "./*": {
-          "module": "./esm/*.js",
-          "import": "./esm/*.js",
-          "require": "./*.js"
-        },
-        "./esm/*": "./esm/*.js"
-      }
-    }
-  },
   "@material-ui/core": {
     "4": {
       "exports": {
@@ -593,6 +506,25 @@
           "import": "./esm/styles/*.js",
           "require": "./styles/*.js"
         }
+      }
+    }
+  },
+  "@material-ui/icons": {
+    "4": {
+      "exports": {
+        ".": {
+          "module": "./esm/index.js",
+          "import": "./esm/index.js",
+          "require": "./index.js"
+        },
+        "./index.js": "./index.js",
+        "./index": null,
+        "./*": {
+          "module": "./esm/*.js",
+          "import": "./esm/*.js",
+          "require": "./*.js"
+        },
+        "./esm/*": "./esm/*.js"
       }
     }
   },
@@ -697,10 +629,71 @@
       }
     }
   },
+  "@vue/reactivity": {
+    "3": {
+      "exports": {
+        "module": "./dist/reactivity.esm-browser.js",
+        "default": "./index.js"
+      }
+    }
+  },
+  "@vue/runtime-dom": {
+    "3": {
+      "exports": {
+        "module": "./dist/runtime-dom.esm-browser.js",
+        "default": "./index.js"
+      }
+    }
+  },
+  "@vue/shared": {
+    "3": {
+      "exports": "./index.js"
+    }
+  },
   "events": {
     "3": {
       "cjsNamedExports": {
-        "events.js": ["once", "EventEmitter"]
+        "events.js": [
+          "once",
+          "EventEmitter"
+        ]
+      }
+    }
+  },
+  "exifr": {
+    "7": {
+      "exports": {
+        ".": {
+          "module": "./dist/full.esm.mjs",
+          "default": "./dist/full.umd.js"
+        },
+        "./dist/full.esm": "./dist/full.esm.js",
+        "./dist/full.esm.js": "./dist/full.esm.js",
+        "./dist/full.esm.mjs": "./dist/full.esm.mjs",
+        "./dist/full.legacy.umd.cjs": "./dist/full.legacy.umd.cjs",
+        "./dist/full.legacy.umd": "./dist/full.legacy.umd.js",
+        "./dist/full.legacy.umd.js": "./dist/full.legacy.umd.js",
+        "./dist/full.umd.cjs": "./dist/full.umd.cjs",
+        "./dist/full.umd": "./dist/full.umd.js",
+        "./dist/full.umd.js": "./dist/full.umd.js",
+        "./dist/lite.esm": "./dist/lite.esm.js",
+        "./dist/lite.esm.js": "./dist/lite.esm.js",
+        "./dist/lite.esm.mjs": "./dist/lite.esm.mjs",
+        "./dist/lite.legacy.umd.cjs": "./dist/lite.legacy.umd.cjs",
+        "./dist/lite.legacy.umd": "./dist/lite.legacy.umd.js",
+        "./dist/lite.legacy.umd.js": "./dist/lite.legacy.umd.js",
+        "./dist/lite.umd.cjs": "./dist/lite.umd.cjs",
+        "./dist/lite.umd": "./dist/lite.umd.js",
+        "./dist/lite.umd.js": "./dist/lite.umd.js",
+        "./dist/mini.esm": "./dist/mini.esm.js",
+        "./dist/mini.esm.js": "./dist/mini.esm.js",
+        "./dist/mini.esm.mjs": "./dist/mini.esm.mjs",
+        "./dist/mini.legacy.umd.cjs": "./dist/mini.legacy.umd.cjs",
+        "./dist/mini.legacy.umd": "./dist/mini.legacy.umd.js",
+        "./dist/mini.legacy.umd.js": "./dist/mini.legacy.umd.js",
+        "./dist/mini.umd.cjs": "./dist/mini.umd.cjs",
+        "./dist/mini.umd": "./dist/mini.umd.js",
+        "./dist/mini.umd.js": "./dist/mini.umd.js"
       }
     }
   },
@@ -710,6 +703,108 @@
         ".": "./index.cjs.js",
         "./index": "./index.js",
         "./index.cjs.js": "./index.cjs.js"
+      }
+    }
+  },
+  "loglevel": {
+    "1.9": {
+      "cjsNamedExports": {
+        "lib/loglevel.js": ["levels", "getLoggers", "noConflict", "getLogger"]
+      }
+    }
+  },
+  "prop-types": {
+    "15.8.0": {
+      "cjsNamedExports": {
+        "index.js": [
+          "array",
+          "bigint",
+          "bool",
+          "func",
+          "number",
+          "object",
+          "string",
+          "symbol",
+          "any",
+          "arrayOf",
+          "element",
+          "elementType",
+          "instanceOf",
+          "node",
+          "objectOf",
+          "oneOf",
+          "oneOfType",
+          "shape",
+          "exact"
+        ]
+      }
+    }
+  },
+  "react": {
+    "16.8.0": {
+      "cjsNamedExports": {
+        "cjs/react.development.js": [
+          "isValidElement",
+          "createFactory",
+          "cloneElement",
+          "createElement",
+          "version",
+          "unstable_ConcurrentMode",
+          "unstable_Profiler",
+          "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+          "Suspense",
+          "StrictMode",
+          "Fragment",
+          "useState",
+          "useRef",
+          "useReducer",
+          "useMemo",
+          "useLayoutEffect",
+          "useDebugValue",
+          "useImperativeHandle",
+          "useEffect",
+          "useContext",
+          "useCallback",
+          "memo",
+          "lazy",
+          "forwardRef",
+          "createContext",
+          "PureComponent",
+          "Component",
+          "createRef",
+          "Children"
+        ],
+        "cjs/react.production.min.js": [
+          "isValidElement",
+          "createFactory",
+          "cloneElement",
+          "createElement",
+          "version",
+          "unstable_ConcurrentMode",
+          "unstable_Profiler",
+          "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+          "Suspense",
+          "StrictMode",
+          "Fragment",
+          "useState",
+          "useRef",
+          "useReducer",
+          "useMemo",
+          "useLayoutEffect",
+          "useDebugValue",
+          "useImperativeHandle",
+          "useEffect",
+          "useContext",
+          "useCallback",
+          "memo",
+          "lazy",
+          "forwardRef",
+          "createContext",
+          "PureComponent",
+          "Component",
+          "createRef",
+          "Children"
+        ]
       }
     }
   },
@@ -1244,33 +1339,6 @@
       }
     }
   },
-  "prop-types": {
-    "15.8.0": {
-      "cjsNamedExports": {
-        "index.js": [
-          "array",
-          "bigint",
-          "bool",
-          "func",
-          "number",
-          "object",
-          "string",
-          "symbol",
-          "any",
-          "arrayOf",
-          "element",
-          "elementType",
-          "instanceOf",
-          "node",
-          "objectOf",
-          "oneOf",
-          "oneOfType",
-          "shape",
-          "exact"
-        ]
-      }
-    }
-  },
   "tippy.js": {
     "6": {
       "exports": {
@@ -1284,64 +1352,6 @@
         },
         "./headless/dist/tippy-headless.cjs.js": "./headless/dist/tippy-headless.cjs.js",
         "./headless/dist/tippy-headless.esm.js": "./headless/dist/tippy-headless.esm.js"
-      }
-    }
-  },
-  "exifr": {
-    "7": {
-      "exports": {
-        ".": {
-          "module": "./dist/full.esm.mjs",
-          "default": "./dist/full.umd.js"
-        },
-        "./dist/full.esm": "./dist/full.esm.js",
-        "./dist/full.esm.js": "./dist/full.esm.js",
-        "./dist/full.esm.mjs": "./dist/full.esm.mjs",
-        "./dist/full.legacy.umd.cjs": "./dist/full.legacy.umd.cjs",
-        "./dist/full.legacy.umd": "./dist/full.legacy.umd.js",
-        "./dist/full.legacy.umd.js": "./dist/full.legacy.umd.js",
-        "./dist/full.umd.cjs": "./dist/full.umd.cjs",
-        "./dist/full.umd": "./dist/full.umd.js",
-        "./dist/full.umd.js": "./dist/full.umd.js",
-        "./dist/lite.esm": "./dist/lite.esm.js",
-        "./dist/lite.esm.js": "./dist/lite.esm.js",
-        "./dist/lite.esm.mjs": "./dist/lite.esm.mjs",
-        "./dist/lite.legacy.umd.cjs": "./dist/lite.legacy.umd.cjs",
-        "./dist/lite.legacy.umd": "./dist/lite.legacy.umd.js",
-        "./dist/lite.legacy.umd.js": "./dist/lite.legacy.umd.js",
-        "./dist/lite.umd.cjs": "./dist/lite.umd.cjs",
-        "./dist/lite.umd": "./dist/lite.umd.js",
-        "./dist/lite.umd.js": "./dist/lite.umd.js",
-        "./dist/mini.esm": "./dist/mini.esm.js",
-        "./dist/mini.esm.js": "./dist/mini.esm.js",
-        "./dist/mini.esm.mjs": "./dist/mini.esm.mjs",
-        "./dist/mini.legacy.umd.cjs": "./dist/mini.legacy.umd.cjs",
-        "./dist/mini.legacy.umd": "./dist/mini.legacy.umd.js",
-        "./dist/mini.legacy.umd.js": "./dist/mini.legacy.umd.js",
-        "./dist/mini.umd.cjs": "./dist/mini.umd.cjs",
-        "./dist/mini.umd": "./dist/mini.umd.js",
-        "./dist/mini.umd.js": "./dist/mini.umd.js"
-      }
-    }
-  },
-  "@vue/reactivity": {
-    "3": {
-      "exports": {
-        "module": "./dist/reactivity.esm-browser.js",
-        "default": "./index.js"
-      }
-    }
-  },
-  "@vue/shared": {
-    "3": {
-      "exports": "./index.js"
-    }
-  },
-  "@vue/runtime-dom": {
-    "3": {
-      "exports": {
-        "module": "./dist/runtime-dom.esm-browser.js",
-        "default": "./index.js"
       }
     }
   },
