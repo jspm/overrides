@@ -650,6 +650,13 @@
       "exports": "./index.js"
     }
   },
+  "elliptic": {
+    "6": {
+      "cjsNamedExports": {
+        "lib/elliptic.js": ["version", "utils", "rand", "curve", "curves", "ec", "eddsa"]
+      }
+    }
+  },
   "events": {
     "3": {
       "cjsNamedExports": {
