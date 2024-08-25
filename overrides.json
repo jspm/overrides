@@ -720,6 +720,26 @@
       }
     }
   },
+  "pino": {
+    "7": {
+      "cjsNamedExports": {
+        "pino.js": ["destination", "levels", "multistream", "pino", "stdSerializers", "stdTimeFunctions", "symbols", "transport", "version"],
+        "browser.js": ["destination", "levels", "multistream", "pino", "stdSerializers", "stdTimeFunctions", "symbols", "transport", "version"]
+      }
+    },
+    "8": {
+      "cjsNamedExports": {
+        "pino.js": ["destination", "levels", "multistream", "pino", "stdSerializers", "stdTimeFunctions", "symbols", "transport", "version"],
+        "browser.js": ["destination", "levels", "multistream", "pino", "stdSerializers", "stdTimeFunctions", "symbols", "transport", "version"]
+      }
+    },
+    "9"; {
+      "cjsNamedExports": {
+        "pino.js": ["destination", "levels", "multistream", "pino", "stdSerializers", "stdTimeFunctions", "symbols", "transport", "version"],
+        "browser.js": ["destination", "levels", "multistream", "pino", "stdSerializers", "stdTimeFunctions", "symbols", "transport", "version"]
+      }
+    }
+  },
   "prop-types": {
     "15.8.0": {
       "cjsNamedExports": {
