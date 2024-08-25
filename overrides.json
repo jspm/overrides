@@ -733,7 +733,7 @@
         "browser.js": ["destination", "levels", "multistream", "pino", "stdSerializers", "stdTimeFunctions", "symbols", "transport", "version"]
       }
     },
-    "9"; {
+    "9": {
       "cjsNamedExports": {
         "pino.js": ["destination", "levels", "multistream", "pino", "stdSerializers", "stdTimeFunctions", "symbols", "transport", "version"],
         "browser.js": ["destination", "levels", "multistream", "pino", "stdSerializers", "stdTimeFunctions", "symbols", "transport", "version"]
