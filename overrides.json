@@ -723,48 +723,57 @@
   "onnxruntime-web": {
     "1.18.0-esmtest.20240428-624c681c83": {
       "exports": {
-        ".": {
-          "node": {
-            "import": "./dist/ort.node.min.mjs",
-            "require": "./dist/ort.node.min.js"
-          },
-          "import": "./dist/ort.bundle.min.mjs",
-          "require": "./dist/ort.min.js",
-          "types": "./types.d.ts"
-        },
         "./dist/ort.proxy.min.mjs": "./dist/ort.proxy.min.mjs",
         "./dist/ort-wasm-simd-threaded.mjs": "./dist/ort-wasm-simd-threaded.mjs",
         "./dist/ort.webgpu.proxy.min.mjs": "./dist/ort.webgpu.proxy.min.mjs",
         "./dist/ort-wasm-simd-threaded.jsep.mjs": "./dist/ort-wasm-simd-threaded.jsep.mjs",
-        "./all": {
-          "node": null,
-          "import": "./dist/ort.all.bundle.min.mjs",
+        ".": {
+          "node": {
+            "import": "./dist/ort.node.min.mjs",
+            "require": "./dist/ort.node.min.js",
+            "types": "./types.d.ts",
+            "default": "./dist/ort.node.min.js"
+          },
+          "import": "./dist/ort.min.mjs",
+          "require": "./dist/ort.min.js",
+          "types": "./types.d.ts",
+          "default": "./dist/ort.min.js"
+        },
+        "./experimental": {
+          "import": "./dist/ort.all.min.mjs",
           "require": "./dist/ort.all.min.js",
-          "types": "./types.d.ts"
+          "types": "./types.d.ts",
+          "default": "./dist/ort.all.min.js"
         },
         "./wasm": {
-          "node": null,
           "import": "./dist/ort.wasm.min.mjs",
           "require": "./dist/ort.wasm.min.js",
-          "types": "./types.d.ts"
+          "types": "./types.d.ts",
+          "default": "./dist/ort.wasm.min.js"
+        },
+        "./wasm-core": {
+          "import": "./dist/ort.wasm-core.min.mjs",
+          "require": "./dist/ort.wasm-core.min.js",
+          "types": "./types.d.ts",
+          "default": "./dist/ort.wasm-core.min.js"
         },
         "./webgl": {
-          "node": null,
           "import": "./dist/ort.webgl.min.mjs",
           "require": "./dist/ort.webgl.min.js",
-          "types": "./types.d.ts"
+          "types": "./types.d.ts",
+          "default": "./dist/ort.webgl.min.js"
         },
         "./webgpu": {
-          "node": null,
-          "import": "./dist/ort.webgpu.bundle.min.mjs",
+          "import": "./dist/ort.webgpu.min.mjs",
           "require": "./dist/ort.webgpu.min.js",
-          "types": "./types.d.ts"
+          "types": "./types.d.ts",
+          "default": "./dist/ort.webgpu.min.js"
         },
         "./training": {
-          "node": null,
           "import": "./dist/ort.training.wasm.min.mjs",
           "require": "./dist/ort.training.wasm.min.js",
-          "types": "./types.d.ts"
+          "types": "./types.d.ts",
+          "default": "./dist/ort.training.wasm.min.js"
         }
       }
     }
