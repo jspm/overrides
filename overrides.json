@@ -1437,7 +1437,7 @@
         "./package.json": "./package.json",
         "./sqlite3.wasm": "./sqlite-wasm/jswasm/sqlite3.wasm",
         "./sqlite-wasm/jswasm/sqlite3-bundler-friendly.mjs": "./sqlite-wasm/jswasm/sqlite3-bundler-friendly.mjs"
-      },
+      }
     }
   },
   "tippy.js": {
