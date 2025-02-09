@@ -1424,6 +1424,22 @@
       }
     }
   },
+  "@sqlite.org/sqlite-wasm": {
+    "3": {
+      "exports": {
+        ".": {
+          "types": "./index.d.ts",
+          "node": "./index.mjs",
+          "import": "./index.mjs",
+          "main": "./index.mjs",
+          "browser": "./index.mjs"
+        },
+        "./package.json": "./package.json",
+        "./sqlite3.wasm": "./sqlite-wasm/jswasm/sqlite3.wasm",
+        "./sqlite-wasm/jswasm/sqlite3-bundler-friendly.mjs": "./sqlite-wasm/jswasm/sqlite3-bundler-friendly.mjs"
+      },
+    }
+  },
   "tippy.js": {
     "6": {
       "exports": {
