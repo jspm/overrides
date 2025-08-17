@@ -1498,5 +1498,17 @@
         "./ref-macros": "./ref-macros.d.ts"
       }
     }
+  },
+  "@wordpress/data": {
+    "9": {
+      "exports": {
+        ".": {
+          "module": "./build-module/index.js",
+          "default": "./build/index.js"
+        },
+        "./build/index.js": "./build/index.js",
+        "./build-module/index.js": "./build-module/index.js"
+      }
+    }
   }
 }
