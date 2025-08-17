@@ -1513,12 +1513,14 @@
   },
   "@wordpress/primitives": {
     "4": {
-      ".": {
-        "module": "./build-module/index.js",
-        "default": "./build/index.js"
-      },
-      "./build/index.js": "./build/index.js",
-      "./build-module/index.js": "./build-module/index.js"
+      "exports": {
+        ".": {
+          "module": "./build-module/index.js",
+          "default": "./build/index.js"
+        },
+        "./build/index.js": "./build/index.js",
+        "./build-module/index.js": "./build-module/index.js"
+      }
     }
   }
 }
