@@ -1509,10 +1509,54 @@
         "./build/index.js": "./build/index.js",
         "./build-module/index.js": "./build-module/index.js"
       }
+    },
+    "10": {
+      "exports": {
+        ".": {
+          "module": "./build-module/index.js",
+          "default": "./build/index.js"
+        },
+        "./build/index.js": "./build/index.js",
+        "./build-module/index.js": "./build-module/index.js"
+      }
     }
   },
   "@wordpress/primitives": {
+    "3": {
+      "exports": {
+        ".": {
+          "module": "./build-module/index.js",
+          "default": "./build/index.js"
+        },
+        "./build/index.js": "./build/index.js",
+        "./build-module/index.js": "./build-module/index.js"
+      }
+    },
     "4": {
+      "exports": {
+        ".": {
+          "module": "./build-module/index.js",
+          "default": "./build/index.js"
+        },
+        "./build/index.js": "./build/index.js",
+        "./build-module/index.js": "./build-module/index.js"
+      }
+    }
+  },
+  "@wordpress/compose": {
+    "6": {
+      "exports": {
+        ".": {
+          "module": "./build-module/index.js",
+          "default": "./build/index.js"
+        },
+        "./build/index.js": "./build/index.js",
+        "./build-module/index.js": "./build-module/index.js"
+      }
+    }
+  },
+  "@wordpress/icons": {
+    "9": {
       "exports": {
         ".": {
           "module": "./build-module/index.js",
