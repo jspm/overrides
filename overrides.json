@@ -1553,6 +1553,16 @@
         "./build/index.js": "./build/index.js",
         "./build-module/index.js": "./build-module/index.js"
       }
+    },
+    "7": {
+      "exports": {
+        ".": {
+          "module": "./build-module/index.js",
+          "default": "./build/index.js"
+        },
+        "./build/index.js": "./build/index.js",
+        "./build-module/index.js": "./build-module/index.js"
+      }
     }
   },
   "@wordpress/icons": {
@@ -1581,6 +1591,30 @@
   },
   "@wordpress/core-data": {
     "7": {
+      "exports": {
+        ".": {
+          "module": "./build-module/index.js",
+          "default": "./build/index.js"
+        },
+        "./build/index.js": "./build/index.js",
+        "./build-module/index.js": "./build-module/index.js"
+      }
+    }
+  },
+  "@wordpress/blocks": {
+    "15": {
+      "exports": {
+        ".": {
+          "module": "./build-module/index.js",
+          "default": "./build/index.js"
+        },
+        "./build/index.js": "./build/index.js",
+        "./build-module/index.js": "./build-module/index.js"
+      }
+    }
+  },
+  "@wordpress/block-editor": {
+    "15": {
       "exports": {
         ".": {
           "module": "./build-module/index.js",
