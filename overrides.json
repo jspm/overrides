@@ -1566,5 +1566,29 @@
         "./build-module/index.js": "./build-module/index.js"
       }
     }
+  },
+  "@wordpress/commands": {
+    "1": {
+      "exports": {
+        ".": {
+          "module": "./build-module/index.js",
+          "default": "./build/index.js"
+        },
+        "./build/index.js": "./build/index.js",
+        "./build-module/index.js": "./build-module/index.js"
+      }
+    }
+  },
+  "@wordpress/core-data": {
+    "7": {
+      "exports": {
+        ".": {
+          "module": "./build-module/index.js",
+          "default": "./build/index.js"
+        },
+        "./build/index.js": "./build/index.js",
+        "./build-module/index.js": "./build-module/index.js"
+      }
+    }
   }
 }
