@@ -1441,6 +1441,29 @@
       }
     }
   },
+  "next": {
+    ">=13.0.0 <17.0.0-0": {
+      "bin": null,
+      "exports": {
+        "./link": "./link.js",
+        "./router": "./router.js",
+        "./head": "./head.js",
+        "./image": "./image.js",
+        "./dynamic": "./dynamic.js",
+        "./navigation": "./navigation.js",
+        "./script": "./script.js",
+        "./form": "./form.js",
+        "./app": "./app.js",
+        "./document": "./document.js",
+        "./error": "./error.js",
+        "./constants": "./constants.js",
+        "./web-vitals": "./web-vitals.js",
+        "./font/google": "./font/google/index.js",
+        "./font/local": "./font/local/index.js",
+        "./package.json": "./package.json"
+      }
+    }
+  },
   "vue": {
     "3": {
       "exports": {
